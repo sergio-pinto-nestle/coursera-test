@@ -1,0 +1,31 @@
+.recipes-container {
+    margin-top: 30px;
+}
+
+.recipe-box {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Mobile margin for recipes */
+@media (max-width: 767px) {
+  .col-xs-12.recipe-box {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: calc(100% - 30px);
+  }
+/* Mobile menu styling */
+  .navbar-collapse {
+    background-color: white;
+    border-top: 1px solid #ddd;
+  }
+  
+  .navbar-nav.visible-xs li {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .navbar-nav.visible-xs li:last-child {
+    border-bottom: none;
+  }
+}
